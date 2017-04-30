@@ -6,7 +6,8 @@ body {
   color: seashell;
   background-color: #000;
   opacity: 0.9;
-  width: 100%
+  width: 100%;
+  margin: 0;
 }
 
 /*h1 {
@@ -20,12 +21,16 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 69px;
-  /*position: fixed;*/
+  width: 100%;
+  position: fixed;
   border-bottom: 1px solid seashell;
+  background-color: #000;
+  z-index: 1;
 }
 
 #header img {
   height: 50px;
+  margin-left: 10px;
 }
 
 .navbar {
@@ -38,4 +43,63 @@ body {
   color:inherit;
   /*padding-left: 20px;*/
   margin-right: 25px;
+}
+
+/* ********** Main content div styles *************** */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+  width: auto;
+  background-color: #000;
+}
+
+/* ********* Jumbotron Section Here ************ */
+
+/*#jumbotron {*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*align-content: center;*/
+  /*flex-wrap: wrap;*/
+/*}*/
+
+#jumbotron {
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.jumbo_tagline {
+  width: 1200px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.jumbo_tagline h2 {
+  font-size: 1.4em;
+  margin: 5px 0px 5px 0px;
+}
+
+.jumbo_tagline h4 {
+  font-size: 1em;
+  margin: 5px 0px 5px 0px;
+}
+
+
+
+#products {
+  display: flex;
+  justify-content: flex-start;
 }
