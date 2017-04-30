@@ -52,9 +52,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 70px;
-  width: auto;
-  background-color: pink;
+  padding-top: 90px;
+  width: 100%;
+  color: inherit;
+  /*margin-top: 10px;*/
+  /*background-color: pink;*/
 }
 
 /* ********* Jumbotron Section Here ************ */
@@ -68,6 +70,8 @@ body {
   display: flex;
   align-items: center;
   align-content: center;
+  flex-wrap: wrap;
+  color: seashell;
 }
 
 .jumbo_tagline {
@@ -76,11 +80,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .jumbo_tagline h2 {
   font-size: 1.4em;
   margin: 5px 0px 5px 0px;
+  /*flex-shrink: 1;*/
 }
 
 .jumbo_tagline h4 {
@@ -94,25 +100,30 @@ body {
   width: 1000px;
   /*background-color: purple;*/
   width: 100%;
+  margin-top: 50px;
 }
 
 #products h2 {
   text-align: center;
-  color: green;
+  color: seashell;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #products h4 {
   text-align: center;
-  color: lavender;
+  /*color: lavender;*/
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
+
 
 .products_bg {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-  color: black;
-  background-color: yellow;
+  /*color: black;*/
+  /*background-color: yellow;*/
   width: auto;
   height: auto;
   /*border: 1px solid black;*/
@@ -126,7 +137,7 @@ body {
 }
 
 .product_offer {
-  background-color: blue;
+  /*background-color: blue;*/
   width: 300px;
   height: 250px;
   margin: 10px;
@@ -141,4 +152,37 @@ body {
   text-align: center;
   margin-top: 10px;
   /*margin-bottom: 5px;*/
+}
+
+/********************** Locations Styles Here **********************/
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: pink;*/
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+#locations h2 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.locations_bg {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  background-color: #000;
+  margin-right: 40px;
+}
+
+.location p {
+  font-size: .8em;
+  opacity: 1;
 }
