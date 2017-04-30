@@ -10,10 +10,6 @@ body {
   margin: 0;
 }
 
-/*h1 {
-  font-style: normal;
-  font-size: .75em;
-}*/
 /* ******header styles ********** */
 
 #header {
@@ -41,7 +37,6 @@ body {
 .navbar a {
   text-decoration: underline;
   color:inherit;
-  /*padding-left: 20px;*/
   margin-right: 25px;
 }
 
@@ -55,8 +50,6 @@ body {
   padding-top: 90px;
   width: 100%;
   color: inherit;
-  /*margin-top: 10px;*/
-  /*background-color: pink;*/
 }
 
 /* ********* Jumbotron Section Here ************ */
@@ -86,7 +79,6 @@ body {
 .jumbo_tagline h2 {
   font-size: 1.4em;
   margin: 5px 0px 5px 0px;
-  /*flex-shrink: 1;*/
 }
 
 .jumbo_tagline h4 {
@@ -98,7 +90,6 @@ body {
 
 #products {
   width: 1000px;
-  /*background-color: purple;*/
   width: 100%;
   margin-top: 50px;
 }
@@ -112,7 +103,6 @@ body {
 
 #products h4 {
   text-align: center;
-  /*color: lavender;*/
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -122,11 +112,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /*color: black;*/
-  /*background-color: yellow;*/
   width: auto;
   height: auto;
-  /*border: 1px solid black;*/
   flex-wrap: wrap;
 }
 
@@ -137,7 +124,6 @@ body {
 }
 
 .product_offer {
-  /*background-color: blue;*/
   width: 300px;
   height: 250px;
   margin: 10px;
@@ -151,7 +137,6 @@ body {
 .product_offer h6 {
   text-align: center;
   margin-top: 10px;
-  /*margin-bottom: 5px;*/
 }
 
 /********************** Locations Styles Here **********************/
@@ -160,7 +145,6 @@ body {
   background-image: url("../images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  /*background-color: pink;*/
   height: 500px;
   width: 100%;
   text-align: center;
@@ -185,4 +169,29 @@ body {
 .location p {
   font-size: .8em;
   opacity: 1;
+}
+
+/********************** Contact Styles Here *********************/
+
+#contact {
+  text-align: center;
+  height: 200px;
+}
+
+#contact h3 {
+  font-size: 1em;
+}
+
+#contact h5 {
+  font-size: .75em;
+}
+
+.phone {
+  font-size: .75em;
+}
+
+/******************** Footer Styles Here *********************/
+#footer p {
+  font-size: .6em;
+  margin-left: 20px;
 }
