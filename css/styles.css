@@ -54,19 +54,11 @@ body {
   flex-direction: column;
   padding-top: 70px;
   width: auto;
-  background-color: #000;
+  background-color: pink;
 }
 
 /* ********* Jumbotron Section Here ************ */
 
-/*#jumbotron {*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
-  /*align-content: center;*/
-  /*flex-wrap: wrap;*/
-/*}*/
 
 #jumbotron {
   background-image: url("../images/img-mission-background.jpg");
@@ -84,7 +76,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .jumbo_tagline h2 {
@@ -97,9 +88,57 @@ body {
   margin: 5px 0px 5px 0px;
 }
 
-
+/* ************** Product Section Styles Here ****************/
 
 #products {
+  width: 1000px;
+  /*background-color: purple;*/
+  width: 100%;
+}
+
+#products h2 {
+  text-align: center;
+  color: green;
+}
+
+#products h4 {
+  text-align: center;
+  color: lavender;
+}
+
+.products_bg {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+
+  color: black;
+  background-color: yellow;
+  width: auto;
+  height: auto;
+  /*border: 1px solid black;*/
+  flex-wrap: wrap;
+}
+
+.products_bg p {
+  background-color: white;
+  width: 300px;
+  height: 200px;
+}
+
+.product_offer {
+  background-color: blue;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+}
+
+.product_offer img {
+  height: 200px;
+  width: 300px;
+}
+
+.product_offer h6 {
+  text-align: center;
+  margin-top: 10px;
+  /*margin-bottom: 5px;*/
 }
