@@ -1,0 +1,41 @@
+/* ***********General Styles ************** */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000;
+  opacity: 0.9;
+  width: 100%
+}
+
+/*h1 {
+  font-style: normal;
+  font-size: .75em;
+}*/
+/* ******header styles ********** */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  /*position: fixed;*/
+  border-bottom: 1px solid seashell;
+}
+
+#header img {
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: underline;
+  color:inherit;
+  /*padding-left: 20px;*/
+  margin-right: 25px;
+}
