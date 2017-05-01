@@ -164,6 +164,7 @@ body {
   width: 300px;
   background-color: #000;
   margin-right: 40px;
+  padding-bottom: 10px;
 }
 
 .location p {
@@ -176,6 +177,11 @@ body {
 #contact {
   text-align: center;
   height: 200px;
+}
+
+#contact a {
+  text-decoration: underline;
+  color: inherit;
 }
 
 #contact h3 {
