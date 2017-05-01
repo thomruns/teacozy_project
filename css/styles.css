@@ -58,8 +58,10 @@ body {
 #jumbotron {
   background-image: url("../images/img-mission-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 700px;
-  width: 1200px;
+  width: 100%; /*permits sizing changes */
   display: flex;
   align-items: center;
   align-content: center;
@@ -68,7 +70,7 @@ body {
 }
 
 .jumbo_tagline {
-  width: 1200px;
+  width: 100%; /*permits proportional resizing */
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -145,6 +147,7 @@ body {
   background-image: url("../images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover; /*proportional resizing*/
   height: 500px;
   width: 100%;
   text-align: center;
